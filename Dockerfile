@@ -1,6 +1,6 @@
 FROM runpod/worker-comfyui:5.1.0-base
 
-RUN comfy-node-install ComfyUI-Inspyrenet-Rembg
+RUN comfy-node-install comfyui-inspyrenet-rembg
 
 # download models using comfy-cli
 # the "--filename" is what you use in your ComfyUI workflow
