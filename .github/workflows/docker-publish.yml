@@ -22,6 +22,10 @@ jobs:
       packages: write
 
     steps:
+      - name: Clean Docker
+        run: |
+          docker system prune -af
+          docker volume prune -f
       - name: Checkout repository
         uses: actions/checkout@v4
 
