@@ -1,4 +1,4 @@
-FROM runpod/worker-comfyui:5.1.0-base
+FROM runpod/worker-comfyui:5.5.0-base
 
 RUN comfy-node-install comfyui-inspyrenet-rembg
 
